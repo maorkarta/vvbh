@@ -1,0 +1,172 @@
+﻿body {
+    direction: rtl;
+    background-color: white;
+    font-family: Tahoma;
+    margin: 0 auto;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 0px 0px 11px 0px;
+    margin: 0px;
+}
+#here {
+    color: #d1bb64;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+.noweb {
+    cursor: not-allowed;
+    color: gray;
+}
+
+    
+    .navbar a {
+        float: right;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 60px;
+        text-decoration: none;
+    }
+
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+   
+    .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 60px;
+        background-color: black;
+        font-family: inherit; 
+        margin: 0; 
+    }
+
+   
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        color: #c06565;
+    }
+
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: right;
+    }
+
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    font-family: Akitza;
+    padding-top: 5px;
+    color: #b57479;
+}
+
+
+#contact {
+    
+    padding-right: 125px;
+    padding-left:125px;
+    padding-top:30px;
+    padding-bottom:5px;
+    width: 700px;
+    background-color: whitesmoke;
+    font-family: Akitza;
+    font-size: 22pt;
+    text-align: center;
+    
+}
+
+
+#WhichWine {
+    width: 115px;
+    font-size: 20px;
+}
+input[type="submit" i] {
+    
+  width:200px;
+  height:30px;
+    text-align: center;
+    border-width: 2px;
+    
+}
+input:hover{
+    color:red;
+}
+textarea {
+    width:200px;
+    height:100px;
+    background-color: whitesmoke;
+}
+
+.design {
+    font-size: 20pt;
+    color: black;
+    
+}
+#pic {
+    float: left;
+    display: inline-block;
+    
+   
+}
+footer {
+    position: relative;
+    background-color: black;   
+    padding:70px 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer nav li {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+    footer nav li a {
+        color: white;
+        text-decoration: none;
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+    }
+
+a:hover {
+    color: #c06565;
+}
